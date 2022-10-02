@@ -38,7 +38,7 @@ export class CanvasView {
       this.info.innerHTML = text;
     }
   }
-  drawSprite(brick: Brick): void {
+  drawSprite(brick: Brick | Paddle): void {
     if (!brick) {
       return;
     }

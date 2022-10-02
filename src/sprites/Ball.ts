@@ -1,3 +1,3 @@
-import { Vector } from '../types';
+import { Vector } from "../types";
 
 export class Ball {}
